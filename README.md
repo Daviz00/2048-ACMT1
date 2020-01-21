@@ -1,0 +1,1 @@
+2048 Game made as recruitment task for BITS_ACM (Task-1 FrontEnd) using HTML, CSS and JS

@@ -1,0 +1,45 @@
+body {
+	background-color: #faf8ef;
+}
+
+p {
+	color: #776E65;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#score {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+#size-bloc {
+	margin-left: -50px;
+	padding-left: 50%;
+}
+
+#size-title {
+	float: left;
+	margin-top: 0px;
+}
+
+#size {
+	width: 50px;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+#canvas {
+	background-color: #776e65;
+}
+
+#canvas-block {
+	margin-left: -250px;
+	padding-left: 50%;
+}
