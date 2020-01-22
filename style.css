@@ -1,45 +1,26 @@
+/* CSS body */
+/* background style */
 body {
 	background-color: #faf8ef;
 }
-
+/* text and score styling */
 p {
-	color: #776E65;
-	font-size: 20px;
+	color: #776e65;
+	font-size: 19px;
 }
-
 h1 {
 	text-align: center;
 }
-
+/* score grid alignment */
 #score {
 	text-align: center;
 }
-
-.clear {
-	clear: both;
-}
-
-#size-bloc {
-	margin-left: -50px;
-	padding-left: 50%;
-}
-
-#size-title {
-	float: left;
-	margin-top: 0px;
-}
-
-#size {
-	width: 50px;
-	margin-left: 10px;
-	border-radius: 3px;
-}
-
+/* matrice box styling */
 #canvas {
 	background-color: #776e65;
 }
-
+/* matrice box postioning and alignment */
 #canvas-block {
-	margin-left: -250px;
+	margin-left: -200px;
 	padding-left: 50%;
 }

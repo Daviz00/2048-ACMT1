@@ -2,25 +2,30 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
+  <!-- included the CSS stylesheet -->
   <link href="style.css" rel="stylesheet">
-  <link rel='icon' href='favicon.ico' type='image/x-icon' />
-  <title>2048</title>
+  <title>2048 Game</title>
 </head>
 
 <body>
-  <h1>2048</h1>
-  <p id="score"></p>
-  <div id="size-bloc">
-    <p id="size-title">Size : </p>
-    <input id="size" type="number" value="4">
-    <input id="change-size" type="button" value="Ok">
-    <div class="clear"></div>
-  </div>
+  <h1><u>2048 CLONE</u></h1>
+  <!-- initian welcome and instruction message for the user -->
+  <p id="score"> Hi Player ! Use the keyboard arrow keys to start playing the game</p>
+  <!-- initialised the canvas block -->
   <div id="canvas-block">
-    <canvas id="canvas" width="500" height="500"></canvas>
+    <!-- gave the matrice custom dimensions inline to the original game -->
+    <canvas id="canvas" width="400" height="400"></canvas>
   </div>
+  <!-- includede the JavaScript file -->
   <script src="script.js"></script>
+  <!-- added a footer to include credits -->
+  <footer>
+    <div>
+      <p>
+        <br> Created by <b>DEVANSH AGARWAL</b> for BITS-ACM Task-1
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
